@@ -5,7 +5,7 @@ VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ShuPing.Entity", "ShuPing.Entity\ShuPing.Entity.csproj", "{F2CD46D8-4875-49A7-B8E5-BCF5B844F2C5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ShuPing.Infrastructure", "Infrastructure\ShuPing.Infrastructure.csproj", "{80A4878D-0076-4E04-8804-F3F5DCC56D7C}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ShuPing.Infrastructure", "ShuPing.Infrastructure\ShuPing.Infrastructure.csproj", "{80A4878D-0076-4E04-8804-F3F5DCC56D7C}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ShuPing.WebApi", "ShuPing.WebApi\ShuPing.WebApi.csproj", "{9C0BE858-F239-417C-BCCF-48F738DA69F0}"
 EndProject
