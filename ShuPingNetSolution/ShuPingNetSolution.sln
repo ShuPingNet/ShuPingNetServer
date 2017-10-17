@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 14
-VisualStudioVersion = 14.0.25420.1
+# Visual Studio 2013
+VisualStudioVersion = 12.0.21005.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ShuPing.Entity", "ShuPing.Entity\ShuPing.Entity.csproj", "{F2CD46D8-4875-49A7-B8E5-BCF5B844F2C5}"
 EndProject
@@ -12,6 +12,14 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ShuPing.WebApi.Tests", "ShuPing.WebApi.Tests\ShuPing.WebApi.Tests.csproj", "{96C52169-1147-4582-B765-0EF46138D8AE}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ShuPing.Interface", "ShuPing.Interface\ShuPing.Interface.csproj", "{E5BA3A56-640D-4C2C-B5B4-F10FE7448288}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ShuPing.Data", "ShuPing.Data\ShuPing.Data.csproj", "{5A9CCD24-B4F6-406A-8829-2C84059F615C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ShuPing.Mapping", "ShuPing.Mapping\ShuPing.Mapping.csproj", "{219892C3-2690-463F-B1ED-FD5ECBBD592F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ShuPing.RepositoryBase", "ShuPing.RepositoryBase\ShuPing.RepositoryBase.csproj", "{3C56D5CF-141D-4887-B722-C75075F18842}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ShuPing.Code", "ShuPing.Code\ShuPing.Code.csproj", "{BB1435A7-CC3F-4012-9AAC-9F6FCF75AAC9}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -39,6 +47,22 @@ Global
 		{E5BA3A56-640D-4C2C-B5B4-F10FE7448288}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E5BA3A56-640D-4C2C-B5B4-F10FE7448288}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E5BA3A56-640D-4C2C-B5B4-F10FE7448288}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5A9CCD24-B4F6-406A-8829-2C84059F615C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5A9CCD24-B4F6-406A-8829-2C84059F615C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5A9CCD24-B4F6-406A-8829-2C84059F615C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5A9CCD24-B4F6-406A-8829-2C84059F615C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{219892C3-2690-463F-B1ED-FD5ECBBD592F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{219892C3-2690-463F-B1ED-FD5ECBBD592F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{219892C3-2690-463F-B1ED-FD5ECBBD592F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{219892C3-2690-463F-B1ED-FD5ECBBD592F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3C56D5CF-141D-4887-B722-C75075F18842}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3C56D5CF-141D-4887-B722-C75075F18842}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3C56D5CF-141D-4887-B722-C75075F18842}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3C56D5CF-141D-4887-B722-C75075F18842}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BB1435A7-CC3F-4012-9AAC-9F6FCF75AAC9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BB1435A7-CC3F-4012-9AAC-9F6FCF75AAC9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BB1435A7-CC3F-4012-9AAC-9F6FCF75AAC9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BB1435A7-CC3F-4012-9AAC-9F6FCF75AAC9}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

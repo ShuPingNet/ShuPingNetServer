@@ -167,3 +167,7 @@ D:\Code\ShuPingNetServer\ShuPingNetServer\ShuPingNetSolution\ShuPing.WebApi\bin\
 D:\Code\ShuPingNetServer\ShuPingNetServer\ShuPingNetSolution\ShuPing.WebApi\obj\Debug\ShuPing.WebApi.csprojResolveAssemblyReference.cache
 D:\Code\ShuPingNetServer\ShuPingNetServer\ShuPingNetSolution\ShuPing.WebApi\obj\Debug\ShuPing.WebApi.dll
 D:\Code\ShuPingNetServer\ShuPingNetServer\ShuPingNetSolution\ShuPing.WebApi\obj\Debug\ShuPing.WebApi.pdb
+D:\Code\ShuPingNetServer\ShuPingNetServer\ShuPingNetSolution\ShuPing.WebApi\bin\Swashbuckle.Core.dll
+D:\Code\ShuPingNetServer\ShuPingNetServer\ShuPingNetSolution\ShuPing.WebApi\bin\WebActivatorEx.dll
+D:\Code\ShuPingNetServer\ShuPingNetServer\ShuPingNetSolution\ShuPing.WebApi\bin\Infrastructure.dll
+D:\Code\ShuPingNetServer\ShuPingNetServer\ShuPingNetSolution\ShuPing.WebApi\bin\Infrastructure.pdb

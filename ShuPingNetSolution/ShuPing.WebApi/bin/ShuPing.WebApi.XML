@@ -481,5 +481,36 @@
             </summary>
             <param name="documentPath">The physical path to XML document.</param>
         </member>
+        <member name="T:ShuPing.WebApi.Controllers.UserController">
+            <summary>
+            用户操作相关接口
+            </summary>
+        </member>
+        <member name="M:ShuPing.WebApi.Controllers.UserController.Register">
+            <summary>
+            用户注册接口
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="T:ShuPing.WebApi.Models.Base.ApiResultModel">
+            <summary>
+            WebApi返回结果类
+            </summary>
+        </member>
+        <member name="P:ShuPing.WebApi.Models.Base.ApiResultModel.Data">
+            <summary>
+            返回数据
+            </summary>
+        </member>
+        <member name="T:ShuPing.WebApi.Models.Base.ApiResultModel`1">
+            <summary>
+            WebApi返回结果类
+            </summary>
+        </member>
+        <member name="P:ShuPing.WebApi.Models.Base.ApiResultModel`1.Data">
+            <summary>
+            返回数据
+            </summary>
+        </member>
     </members>
 </doc>
