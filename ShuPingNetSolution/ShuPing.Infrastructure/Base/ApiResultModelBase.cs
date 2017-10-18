@@ -22,6 +22,6 @@ namespace Infrastructure.Base
         /// <summary>
         /// 返回状态
         /// </summary>
-        public virtual StatusCode StatusCode { get; set; }
+        public virtual StatusCodeEnum StatusCode { get; set; }
     }
 }

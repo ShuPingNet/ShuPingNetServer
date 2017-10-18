@@ -44,7 +44,7 @@ namespace ShuPing.WebApi.Models.Base
                 IsSuccess = true,
                 Message = "SUCCESS",
                 Data = data,
-                StatusCode = StatusCode.成功
+                StatusCode = StatusCodeEnum.Success
             };
         }
     }

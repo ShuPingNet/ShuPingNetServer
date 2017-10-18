@@ -23,7 +23,7 @@ namespace ShuPing.WebApi
 
             config.Routes.MapHttpRoute(
                 name: "UserApi",
-                routeTemplate: "api/{controller}/{action}.html",
+                routeTemplate: "api/{controller}/{action}",
                 defaults: new { id = RouteParameter.Optional }
             );
 

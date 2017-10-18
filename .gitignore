@@ -3,5 +3,8 @@
 ################################################################################
 
 /ShuPingNetSolution/ShuPing.Code/obj/Debug
+*/obj/Debug
 *.suo
 *.force
+*.dll
+/ShuPingNetSolution/ShuPing.WebApi.Tests/bin/Debug

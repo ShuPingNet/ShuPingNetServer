@@ -27,7 +27,7 @@ namespace ShuPing.WebApi.Controllers
             {
                 IsSuccess = false,
                 Message = "用户注册失败",
-                StatusCode = StatusEnum.StatusCode.失败
+                StatusCode = StatusEnum.StatusCodeEnum.Error
             };
 
 
@@ -41,7 +41,7 @@ namespace ShuPing.WebApi.Controllers
             var result = new ApiResultModel()
             {
                 IsSuccess = true,
-                StatusCode = StatusEnum.StatusCode.成功,
+                StatusCode = StatusEnum.StatusCodeEnum.Success,
                 Message = "用户登录成功"
             };
             return result;

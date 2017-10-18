@@ -3,3 +3,8 @@ D:\Code\ShuPingNetServer\ShuPingNetServer\ShuPingNetSolution\ShuPing.Code\bin\De
 D:\Code\ShuPingNetServer\ShuPingNetServer\ShuPingNetSolution\ShuPing.Code\obj\Debug\ShuPing.Code.csprojResolveAssemblyReference.cache
 D:\Code\ShuPingNetServer\ShuPingNetServer\ShuPingNetSolution\ShuPing.Code\obj\Debug\ShuPing.Code.dll
 D:\Code\ShuPingNetServer\ShuPingNetServer\ShuPingNetSolution\ShuPing.Code\obj\Debug\ShuPing.Code.pdb
+D:\Code\ShuPingNetServer\ShuPingNetSolution\ShuPing.Code\bin\Debug\ShuPing.Code.dll
+D:\Code\ShuPingNetServer\ShuPingNetSolution\ShuPing.Code\bin\Debug\ShuPing.Code.pdb
+D:\Code\ShuPingNetServer\ShuPingNetSolution\ShuPing.Code\obj\Debug\ShuPing.Code.csprojResolveAssemblyReference.cache
+D:\Code\ShuPingNetServer\ShuPingNetSolution\ShuPing.Code\obj\Debug\ShuPing.Code.dll
+D:\Code\ShuPingNetServer\ShuPingNetSolution\ShuPing.Code\obj\Debug\ShuPing.Code.pdb

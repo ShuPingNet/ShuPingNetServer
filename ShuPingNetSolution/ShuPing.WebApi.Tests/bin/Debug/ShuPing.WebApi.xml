@@ -486,7 +486,7 @@
             用户操作相关接口
             </summary>
         </member>
-        <member name="M:ShuPing.WebApi.Controllers.UserController.Register">
+        <member name="M:ShuPing.WebApi.Controllers.UserController.Register(ShuPing.Entity.UserEntity)">
             <summary>
             用户注册接口
             </summary>
