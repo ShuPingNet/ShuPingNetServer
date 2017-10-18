@@ -1,0 +1,12 @@
+D:\Code\ShuPingNetServer\ShuPingNetServer\ShuPingNetSolution\ShuPing.Data\bin\Debug\ShuPing.Data.dll.config
+D:\Code\ShuPingNetServer\ShuPingNetServer\ShuPingNetSolution\ShuPing.Data\bin\Debug\ShuPing.Data.dll
+D:\Code\ShuPingNetServer\ShuPingNetServer\ShuPingNetSolution\ShuPing.Data\bin\Debug\ShuPing.Data.pdb
+D:\Code\ShuPingNetServer\ShuPingNetServer\ShuPingNetSolution\ShuPing.Data\bin\Debug\EntityFramework.dll
+D:\Code\ShuPingNetServer\ShuPingNetServer\ShuPingNetSolution\ShuPing.Data\bin\Debug\EntityFramework.SqlServer.dll
+D:\Code\ShuPingNetServer\ShuPingNetServer\ShuPingNetSolution\ShuPing.Data\bin\Debug\EntityFramework.xml
+D:\Code\ShuPingNetServer\ShuPingNetServer\ShuPingNetSolution\ShuPing.Data\bin\Debug\EntityFramework.SqlServer.xml
+D:\Code\ShuPingNetServer\ShuPingNetServer\ShuPingNetSolution\ShuPing.Data\bin\Debug\zh-Hans\EntityFramework.resources.dll
+D:\Code\ShuPingNetServer\ShuPingNetServer\ShuPingNetSolution\ShuPing.Data\bin\Debug\zh-Hans\EntityFramework.SqlServer.resources.dll
+D:\Code\ShuPingNetServer\ShuPingNetServer\ShuPingNetSolution\ShuPing.Data\obj\Debug\ShuPing.Data.csprojResolveAssemblyReference.cache
+D:\Code\ShuPingNetServer\ShuPingNetServer\ShuPingNetSolution\ShuPing.Data\obj\Debug\ShuPing.Data.dll
+D:\Code\ShuPingNetServer\ShuPingNetServer\ShuPingNetSolution\ShuPing.Data\obj\Debug\ShuPing.Data.pdb
