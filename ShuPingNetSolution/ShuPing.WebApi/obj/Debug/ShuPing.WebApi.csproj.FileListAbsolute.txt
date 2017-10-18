@@ -171,3 +171,9 @@ D:\Code\ShuPingNetServer\ShuPingNetServer\ShuPingNetSolution\ShuPing.WebApi\bin\
 D:\Code\ShuPingNetServer\ShuPingNetServer\ShuPingNetSolution\ShuPing.WebApi\bin\WebActivatorEx.dll
 D:\Code\ShuPingNetServer\ShuPingNetServer\ShuPingNetSolution\ShuPing.WebApi\bin\Infrastructure.dll
 D:\Code\ShuPingNetServer\ShuPingNetServer\ShuPingNetSolution\ShuPing.WebApi\bin\Infrastructure.pdb
+D:\Code\ShuPingNetServer\ShuPingNetServer\ShuPingNetSolution\ShuPing.WebApi\bin\ShuPing.Entity.dll
+D:\Code\ShuPingNetServer\ShuPingNetServer\ShuPingNetSolution\ShuPing.WebApi\bin\Swagger.Net.dll
+D:\Code\ShuPingNetServer\ShuPingNetServer\ShuPingNetSolution\ShuPing.WebApi\bin\WebActivator.dll
+D:\Code\ShuPingNetServer\ShuPingNetServer\ShuPingNetSolution\ShuPing.WebApi\bin\ShuPing.Entity.pdb
+D:\Code\ShuPingNetServer\ShuPingNetServer\ShuPingNetSolution\ShuPing.WebApi\bin\Swagger.Net.pdb
+D:\Code\ShuPingNetServer\ShuPingNetServer\ShuPingNetSolution\ShuPing.WebApi\bin\Swagger.Net.xml
