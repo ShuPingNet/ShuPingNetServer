@@ -8,3 +8,12 @@
 *.force
 *.dll
 /ShuPingNetSolution/ShuPing.WebApi.Tests/bin/Debug
+/ShuPingNetSolution/ShuPing.RepositoryBase/bin/Debug
+/ShuPingNetSolution/ShuPing.WebApi/bin
+/ShuPingNetSolution/ShuPing.Mapping/bin/Debug
+/ShuPingNetSolution/ShuPing.Interface/bin/Debug
+/ShuPingNetSolution/ShuPing.Infrastructure/bin
+/ShuPingNetSolution/ShuPing.Entity/bin/Debug
+/ShuPingNetSolution/ShuPing.Data/bin/Debug
+/ShuPingNetSolution/ShuPing.Code/bin/Debug
+

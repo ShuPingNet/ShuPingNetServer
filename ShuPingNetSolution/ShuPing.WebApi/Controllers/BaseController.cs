@@ -13,6 +13,9 @@ using System.Text;
 
 namespace ShuPing.WebApi.Controllers
 {
+    /// <summary>
+    /// 控制器基类
+    /// </summary>
     public class BaseController : ApiController
     {
         /// <summary>
@@ -25,6 +28,7 @@ namespace ShuPing.WebApi.Controllers
             ResultMessage msg = null;
             int staffMsg = 0;
 
+            //检测staff合法性
             if(string.IsNullOrEmpty(staff) || !int.TryParse(staff,out staffMsg))
             {
                 msg = new ResultMessage();
@@ -35,6 +39,7 @@ namespace ShuPing.WebApi.Controllers
                 return HttpResponseExtension.toJson(JsonConvert.SerializeObject(msg));
             }
 
+            //从Cache中获取Token，如果为空则创建Token 
             Token token = (Token)HttpRuntime.Cache.Get(staffMsg.ToString());
             if(null == token)
             {
@@ -45,6 +50,7 @@ namespace ShuPing.WebApi.Controllers
                 HttpRuntime.Cache.Insert(staffMsg.ToString(), token, null, token.ExpireTime, TimeSpan.Zero);
             }
 
+            //返回信息
             msg.StatusCode = (int)StatusCodeEnum.Success;
             msg.Info = token.StaffId.ToString();
             msg.Data = token;

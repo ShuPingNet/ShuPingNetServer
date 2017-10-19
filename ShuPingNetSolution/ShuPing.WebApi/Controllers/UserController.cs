@@ -1,4 +1,5 @@
 ﻿using ShuPing.Entity;
+using ShuPing.WebApi.Attributes;
 using ShuPing.WebApi.Models.Base;
 using System;
 using System.Collections.Generic;
@@ -13,6 +14,7 @@ namespace ShuPing.WebApi.Controllers
     /// <summary>
     /// 用户操作相关接口
     /// </summary>
+    [LoggingActionFilter]
     public class UserController : ApiController
     {
         /// <summary>
@@ -29,8 +31,6 @@ namespace ShuPing.WebApi.Controllers
                 Message = "用户注册失败",
                 StatusCode = StatusEnum.StatusCodeEnum.Error
             };
-
-
             return result;
         }
 
