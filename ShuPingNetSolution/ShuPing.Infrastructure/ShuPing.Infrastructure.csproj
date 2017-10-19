@@ -52,19 +52,20 @@
   <ItemGroup>
     <Compile Include="Attributes\EnumAttribute.cs" />
     <Compile Include="Base\ApiResultModelBase.cs" />
-    <Compile Include="DbLogType.cs" />
+    <Compile Include="Common\SignExtension.cs" />
+    <Compile Include="Common\WebSettingsConfig.cs" />
+    <Compile Include="Enums\DbLogType.cs" />
     <Compile Include="Extension\EnumExtension.cs" />
     <Compile Include="Extension\HttpResponseExtension.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="StatusCode.cs" />
+    <Compile Include="Resource\StringResource.cs" />
+    <Compile Include="Enums\StatusCode.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
     <None Include="packages.config" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="Enums\" />
-  </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
