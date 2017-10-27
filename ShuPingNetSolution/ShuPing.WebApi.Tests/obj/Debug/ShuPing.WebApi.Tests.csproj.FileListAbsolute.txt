@@ -172,3 +172,7 @@ D:\Code\ShuPingNetServer\ShuPingNetSolution\ShuPing.WebApi.Tests\bin\Debug\zh-Ha
 D:\Code\ShuPingNetServer\ShuPingNetSolution\ShuPing.WebApi.Tests\obj\Debug\ShuPing.WebApi.Tests.csprojResolveAssemblyReference.cache
 D:\Code\ShuPingNetServer\ShuPingNetSolution\ShuPing.WebApi.Tests\obj\Debug\ShuPing.WebApi.Tests.dll
 D:\Code\ShuPingNetServer\ShuPingNetSolution\ShuPing.WebApi.Tests\obj\Debug\ShuPing.WebApi.Tests.pdb
+D:\Code\ShuPingNetServer\ShuPingNetServer\ShuPingNetSolution\ShuPing.WebApi.Tests\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
+D:\Code\ShuPingNetServer\ShuPingNetServer\ShuPingNetSolution\ShuPing.WebApi.Tests\bin\Debug\ShuPing.Entity.dll
+D:\Code\ShuPingNetServer\ShuPingNetServer\ShuPingNetSolution\ShuPing.WebApi.Tests\bin\Debug\ShuPing.Entity.pdb
+D:\Code\ShuPingNetServer\ShuPingNetServer\ShuPingNetSolution\ShuPing.WebApi.Tests\bin\Debug\zh-Hans\Microsoft.VisualStudio.QualityTools.UnitTestFramework.resources.dll
