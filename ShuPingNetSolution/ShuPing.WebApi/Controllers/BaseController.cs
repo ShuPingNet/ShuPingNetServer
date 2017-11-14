@@ -22,6 +22,7 @@ namespace ShuPing.WebApi.Controllers
         /// </summary>
         /// <param name="staff"></param>
         /// <returns></returns>
+        [HttpGet]
         public HttpResponseMessage GetToken(string staff)
         {
             ResultMessage msg = null;
@@ -61,6 +62,7 @@ namespace ShuPing.WebApi.Controllers
         /// </summary>
         /// <param name="parames"></param>
         /// <returns></returns>
+        [HttpGet]
         public Tuple<string, string> GetQueryString(Dictionary<string, string> parames)
         {
             if (parames == null || parames.Count == 0)
