@@ -1,11 +1,7 @@
 ﻿using ShuPing.Entity;
 using ShuPing.WebApi.Attributes;
 using ShuPing.WebApi.Models.Base;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Net;
-using System.Net.Http;
+using Infrastructure.Resource;
 using System.Web.Http;
 using StatusEnum = ShuPing.Infrastructure.StatusEnum;
 
@@ -21,29 +17,37 @@ namespace ShuPing.WebApi.Controllers
         /// 用户注册接口
         /// </summary>
         /// <returns></returns>
-        //[Route("User/Register")]
         [HttpPost]
         public ApiResultModel Register(UserEntity entity)
         {
             var result = new ApiResultModel()
             {
                 IsSuccess = false,
-                Message = "用户注册失败",
+                Message = StringResource.RegisterFail,
                 StatusCode = StatusEnum.StatusCodeEnum.Error
             };
             return result;
         }
 
-        //[Route("User/Login")]
+        /// <summary>
+        /// 用户登录接口
+        /// </summary>
+        /// <returns></returns>
         [HttpGet]
         public ApiResultModel Login()
         {
             var result = new ApiResultModel()
             {
-                IsSuccess = true,
-                StatusCode = StatusEnum.StatusCodeEnum.Success,
-                Message = "用户登录成功"
+                IsSuccess = false,
+                StatusCode = StatusEnum.StatusCodeEnum.Error,
+                Message = StringResource.LoginFail
             };
+
+            //验证登录逻辑
+
+            result.IsSuccess = true;
+            result.StatusCode = StatusEnum.StatusCodeEnum.Success;
+            result.Message = StringResource.LoginSuucess;
             return result;
         }
 	}

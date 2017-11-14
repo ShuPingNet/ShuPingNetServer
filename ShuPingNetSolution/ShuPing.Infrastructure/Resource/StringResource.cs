@@ -31,6 +31,7 @@ namespace Infrastructure.Resource
         public static readonly string GetToken = "GetToken";
 
         #endregion
+        
         #region 请求方式
         public const  string Get = "GET";
         public const  string Post = "POST";
@@ -41,5 +42,8 @@ namespace Infrastructure.Resource
         public const string Stopwatch = "[Stopwatch]";
         #endregion
 
+        public const string LoginSuucess = "登录成功";
+        public const string LoginFail = "登录失败";
+        public const string RegisterFail = "用户注册失败";
     }
 }

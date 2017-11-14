@@ -6,7 +6,6 @@ using System.Linq;
 using System.Net.Http;
 using System.Web;
 using System.Web.Http;
-using System.Web.Mvc;
 using Infrastructure.Extension;
 using Newtonsoft.Json;
 using System.Text;
@@ -29,7 +28,7 @@ namespace ShuPing.WebApi.Controllers
             int staffMsg = 0;
 
             //检测staff合法性
-            if(string.IsNullOrEmpty(staff) || !int.TryParse(staff,out staffMsg))
+            if (string.IsNullOrEmpty(staff) || !int.TryParse(staff, out staffMsg))
             {
                 msg = new ResultMessage();
                 msg.StatusCode = (int)StatusCodeEnum.ParameterError;
@@ -41,7 +40,7 @@ namespace ShuPing.WebApi.Controllers
 
             //从Cache中获取Token，如果为空则创建Token 
             Token token = (Token)HttpRuntime.Cache.Get(staffMsg.ToString());
-            if(null == token)
+            if (null == token)
             {
                 token = new Token();
                 token.StaffId = staffMsg;

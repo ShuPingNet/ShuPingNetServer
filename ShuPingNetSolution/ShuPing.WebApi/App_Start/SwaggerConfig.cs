@@ -3,7 +3,7 @@ using WebActivatorEx;
 using ShuPing.WebApi;
 using Swashbuckle.Application;
 using System;
-using System.Xml.XPath;
+using System.Linq;
 
 [assembly: PreApplicationStartMethod(typeof(SwaggerConfig), "Register")]
 
@@ -20,6 +20,7 @@ namespace ShuPing.WebApi
                     {
                         c.SingleApiVersion("v1", "ShuPing.WebApi");
                         c.IncludeXmlComments(GetXmlCommentsPath());
+                        c.ResolveConflictingActions(apiDescriptions => apiDescriptions.First());
                     })
                 .EnableSwaggerUi(c =>{});
         }

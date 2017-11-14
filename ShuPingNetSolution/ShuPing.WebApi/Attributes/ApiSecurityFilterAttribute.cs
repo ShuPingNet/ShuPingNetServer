@@ -19,7 +19,7 @@ namespace ShuPing.WebApi.Attributes
     /// <summary>
     /// 验证请求Action的合法性
     /// </summary>
-    public class ApiSecurityFilter: ActionFilterAttribute
+    public class ApiSecurityFilterAttribute : ActionFilterAttribute,IActionFilter
     {
         /// <summary>
         /// 

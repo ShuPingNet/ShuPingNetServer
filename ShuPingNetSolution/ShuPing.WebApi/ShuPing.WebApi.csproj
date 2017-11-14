@@ -373,7 +373,7 @@
     <Compile Include="Areas\HelpPage\SampleGeneration\SampleDirection.cs" />
     <Compile Include="Areas\HelpPage\SampleGeneration\TextSample.cs" />
     <Compile Include="Areas\HelpPage\XmlDocumentationProvider.cs" />
-    <Compile Include="Attributes\ApiSecurityFilter.cs" />
+    <Compile Include="Attributes\ApiSecurityFilterAttribute.cs" />
     <Compile Include="Attributes\LoggingActionFilterAttribute.cs" />
     <Compile Include="Controllers\AccountController.cs" />
     <Compile Include="Controllers\BaseController.cs" />
