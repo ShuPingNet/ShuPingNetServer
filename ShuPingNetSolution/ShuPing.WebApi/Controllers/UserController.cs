@@ -42,8 +42,8 @@ namespace ShuPing.WebApi.Controllers
         {
             //检测cookie是否创建
             HttpContext context = HttpContext.Current;
-            HttpCookie cookie =  context.Request.Cookies.Get("_user");
-            if(null == cookie)
+            HttpCookie cookie = context.Request.Cookies.Get("_user");
+            if (null == cookie)
             {
                 cookie = new HttpCookie("_user");
                 cookie.Value = "xuhb";
@@ -63,7 +63,7 @@ namespace ShuPing.WebApi.Controllers
                 Message = "用户登录成功"
             };
 
-            result.IsSuccess = false;
+            //result.IsSuccess = false;
             return result;
         }
 	}

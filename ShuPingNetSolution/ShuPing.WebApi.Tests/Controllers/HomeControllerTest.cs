@@ -11,7 +11,7 @@ namespace ShuPing.WebApi.Tests.Controllers
         [TestMethod]
         public void Index()
         {
-            // 排列
+            // 配置
             HomeController controller = new HomeController();
 
             // 操作

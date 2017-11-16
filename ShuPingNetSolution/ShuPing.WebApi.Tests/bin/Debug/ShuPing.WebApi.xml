@@ -481,6 +481,54 @@
             </summary>
             <param name="documentPath">The physical path to XML document.</param>
         </member>
+        <member name="T:ShuPing.WebApi.Attributes.ApiSecurityFilter">
+            <summary>
+            验证请求Action的合法性
+            </summary>
+        </member>
+        <member name="M:ShuPing.WebApi.Attributes.ApiSecurityFilter.OnActionExecuting(System.Web.Http.Controllers.HttpActionContext)">
+            <summary>
+            
+            </summary>
+            <param name="actionContext"></param>
+        </member>
+        <member name="M:ShuPing.WebApi.Attributes.ApiSecurityFilter.OnActionExecuted(System.Web.Http.Filters.HttpActionExecutedContext)">
+            <summary>
+            
+            </summary>
+            <param name="actionExecutedContext"></param>
+        </member>
+        <member name="M:ShuPing.WebApi.Attributes.ApiSecurityFilter.ValidateParameters(System.Int32@)">
+            <summary>
+            验证验签数据
+            </summary>
+            <param name="staffId"></param>
+            <returns></returns>
+        </member>
+        <member name="T:ShuPing.WebApi.Attributes.LoggingActionFilterAttribute">
+            <summary>
+            全局日志拦截
+            </summary>
+        </member>
+        <member name="T:ShuPing.WebApi.Controllers.BaseController">
+            <summary>
+            控制器基类
+            </summary>
+        </member>
+        <member name="M:ShuPing.WebApi.Controllers.BaseController.GetToken(System.String)">
+            <summary>
+            获取Token用于验证请求
+            </summary>
+            <param name="staff"></param>
+            <returns></returns>
+        </member>
+        <member name="M:ShuPing.WebApi.Controllers.BaseController.GetQueryString(System.Collections.Generic.Dictionary{System.String,System.String})">
+            <summary>
+            Get请求参数处理
+            </summary>
+            <param name="parames"></param>
+            <returns></returns>
+        </member>
         <member name="T:ShuPing.WebApi.Controllers.UserController">
             <summary>
             用户操作相关接口
