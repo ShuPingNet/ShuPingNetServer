@@ -3,6 +3,7 @@ using ShuPing.WebApi.Attributes;
 using ShuPing.WebApi.Models.Base;
 using Infrastructure.Resource;
 using System.Web.Http;
+using System.Web;
 using StatusEnum = ShuPing.Infrastructure.StatusEnum;
 
 namespace ShuPing.WebApi.Controllers
