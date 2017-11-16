@@ -7,7 +7,6 @@ D:\Code\ShuPingNetServer\ShuPingNetServer\ShuPingNetSolution\ShuPing.Entity\bin\
 D:\Code\ShuPingNetServer\ShuPingNetServer\ShuPingNetSolution\ShuPing.Entity\bin\Debug\EntityFramework.SqlServer.xml
 D:\Code\ShuPingNetServer\ShuPingNetServer\ShuPingNetSolution\ShuPing.Entity\bin\Debug\zh-Hans\EntityFramework.resources.dll
 D:\Code\ShuPingNetServer\ShuPingNetServer\ShuPingNetSolution\ShuPing.Entity\bin\Debug\zh-Hans\EntityFramework.SqlServer.resources.dll
-D:\Code\ShuPingNetServer\ShuPingNetServer\ShuPingNetSolution\ShuPing.Entity\obj\Debug\ShuPing.Entity.csprojResolveAssemblyReference.cache
 D:\Code\ShuPingNetServer\ShuPingNetServer\ShuPingNetSolution\ShuPing.Entity\obj\Debug\ShuPing.Entity.dll
 D:\Code\ShuPingNetServer\ShuPingNetServer\ShuPingNetSolution\ShuPing.Entity\obj\Debug\ShuPing.Entity.pdb
 D:\Code\ShuPingNetServer\ShuPingNetSolution\ShuPing.Entity\bin\Debug\ShuPing.Entity.dll.config

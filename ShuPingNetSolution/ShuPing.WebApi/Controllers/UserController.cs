@@ -35,15 +35,19 @@ namespace ShuPing.WebApi.Controllers
         /// </summary>
         /// <returns></returns>
         [HttpGet]
-        public ApiResultModel Login(UserLogOnEntity entity)
+        public ApiResultModel Login(UserLogOnEntity userLogOnEntity)
         {
             //检测cookie是否创建
             HttpContext context = HttpContext.Current;
             HttpCookie cookie =  context.Request.Cookies.Get("_user");
             if(null == cookie)
             {
+                //执行登录操作
+
+
+                //如果登录成功写入Cookie
                 cookie = new HttpCookie("_user");
-                cookie.Value = "xuhb";
+                cookie.Value = userLogOnEntity.C_UserId.ToString();
                 cookie.Expires.AddMinutes(5);
                 context.Response.SetCookie(cookie);
             }

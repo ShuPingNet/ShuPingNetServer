@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 2013
-VisualStudioVersion = 12.0.21005.1
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ShuPing.Entity", "ShuPing.Entity\ShuPing.Entity.csproj", "{F2CD46D8-4875-49A7-B8E5-BCF5B844F2C5}"
 EndProject
@@ -20,6 +20,10 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ShuPing.RepositoryBase", "ShuPing.RepositoryBase\ShuPing.RepositoryBase.csproj", "{3C56D5CF-141D-4887-B722-C75075F18842}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ShuPing.Code", "ShuPing.Code\ShuPing.Code.csproj", "{BB1435A7-CC3F-4012-9AAC-9F6FCF75AAC9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ShuPing.Application", "ShuPing.Application\ShuPing.Application.csproj", "{ED9A657D-7A91-4A9D-BECC-32E16ED8309F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ShuPing.Repository", "ShuPing.Repository\ShuPing.Repository.csproj", "{48D8F961-3352-4A8E-ADBC-5EC9AE0A333B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -63,6 +67,14 @@ Global
 		{BB1435A7-CC3F-4012-9AAC-9F6FCF75AAC9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BB1435A7-CC3F-4012-9AAC-9F6FCF75AAC9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BB1435A7-CC3F-4012-9AAC-9F6FCF75AAC9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ED9A657D-7A91-4A9D-BECC-32E16ED8309F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ED9A657D-7A91-4A9D-BECC-32E16ED8309F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ED9A657D-7A91-4A9D-BECC-32E16ED8309F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ED9A657D-7A91-4A9D-BECC-32E16ED8309F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{48D8F961-3352-4A8E-ADBC-5EC9AE0A333B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{48D8F961-3352-4A8E-ADBC-5EC9AE0A333B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{48D8F961-3352-4A8E-ADBC-5EC9AE0A333B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{48D8F961-3352-4A8E-ADBC-5EC9AE0A333B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -8,8 +8,8 @@ namespace ShuPing.Entity
 {
     public class UserLogOnEntity
     {
-        public string C_Id { get; set; }
-        public string C_UserId { get; set; }
+        public long C_Id { get; set; }
+        public long C_UserId { get; set; }
         public string C_UserPassword { get; set; }
         public string C_UserSecretkey { get; set; }
         public DateTime? C_AllowStartTime { get; set; }

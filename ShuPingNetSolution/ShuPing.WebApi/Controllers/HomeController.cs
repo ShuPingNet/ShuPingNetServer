@@ -12,7 +12,7 @@ namespace ShuPing.WebApi.Controllers
         {
             ViewBag.Title = "Home Page";
 
-            return View();
+            return Redirect("/api/User/Login");
         }
     }
 }

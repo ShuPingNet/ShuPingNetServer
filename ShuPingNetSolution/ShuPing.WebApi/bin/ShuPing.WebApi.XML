@@ -540,7 +540,7 @@
             </summary>
             <returns></returns>
         </member>
-        <member name="M:ShuPing.WebApi.Controllers.UserController.Login">
+        <member name="M:ShuPing.WebApi.Controllers.UserController.Login(ShuPing.Entity.UserLogOnEntity)">
             <summary>
             用户登录接口
             </summary>

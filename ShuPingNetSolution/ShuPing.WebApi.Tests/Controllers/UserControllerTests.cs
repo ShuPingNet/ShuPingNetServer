@@ -26,7 +26,7 @@ namespace ShuPing.WebApi.Controllers.Tests
         public void SetUp()
         {
             loginEntity = new UserLogOnEntity();
-            loginEntity.C_UserId = "xhb";
+            loginEntity.C_UserId = 10011201202;
             loginEntity.C_UserPassword = "12";
             Debug.WriteLine("初始化UserLogOnEntity完成");
 
@@ -46,7 +46,7 @@ namespace ShuPing.WebApi.Controllers.Tests
         {
             
             loginEntity = new UserLogOnEntity();
-            loginEntity.C_UserId = "xhb";
+            loginEntity.C_UserId = 1000200120;
             loginEntity.C_UserPassword = "12";
             Debug.WriteLine("初始化UserLogOnEntity完成");
 
